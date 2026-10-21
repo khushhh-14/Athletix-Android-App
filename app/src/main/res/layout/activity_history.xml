@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Current GPS Location:"
+                android:text="Current Place / Address:"
                 android:textStyle="bold" />
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_marginTop="5dp"
                 android:background="#EEEEEE"
                 android:padding="8dp"
-                android:text="Lat: -- | Lng: --"
+                android:text="Click 'Track My Location' to fetch address"
                 android:textAlignment="center" />
 
             <Button
@@ -66,14 +66,6 @@
                 android:layout_marginTop="14dp"
                 android:text="READ records"
                 android:onClick="readWorkouts" />
-
-            <Button
-                android:id="@+id/b8"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:text="Export to CSV"
-                android:onClick="exportCsvFile" />
 
             <TextView
                 android:id="@+id/tv_records"
